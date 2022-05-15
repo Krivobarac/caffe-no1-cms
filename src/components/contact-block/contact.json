@@ -1,0 +1,41 @@
+{
+  "collectionName": "components_contact_block_contacts",
+  "info": {
+    "displayName": "contact",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "contact_text": {
+      "type": "text",
+      "required": true,
+      "maxLength": 250
+    },
+    "street": {
+      "type": "string",
+      "maxLength": 30,
+      "required": true
+    },
+    "street_number": {
+      "type": "integer",
+      "required": true
+    },
+    "City": {
+      "type": "string",
+      "required": true,
+      "maxLength": 30
+    },
+    "post_number": {
+      "type": "integer",
+      "required": true
+    },
+    "phone_number": {
+      "type": "integer",
+      "required": true
+    },
+    "email": {
+      "type": "email",
+      "required": true
+    }
+  }
+}

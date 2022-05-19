@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_menu_block_items_blocks",
+  "info": {
+    "displayName": "menu",
+    "icon": "pizza-slice",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "item_category": {
+      "type": "string",
+      "required": true
+    },
+    "item": {
+      "displayName": "items",
+      "type": "component",
+      "repeatable": true,
+      "component": "menu-block.items"
+    },
+    "category_description": {
+      "type": "text"
+    }
+  }
+}

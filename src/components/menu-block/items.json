@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_menu_block_items",
+  "info": {
+    "displayName": "items",
+    "icon": "align-justify",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "item_name": {
+      "type": "string",
+      "required": true
+    },
+    "item_price": {
+      "type": "decimal",
+      "required": true
+    }
+  }
+}

@@ -2,7 +2,8 @@
   "collectionName": "components_contact_block_contacts",
   "info": {
     "displayName": "contact",
-    "icon": "address-card"
+    "icon": "address-card",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -16,25 +17,24 @@
       "maxLength": 30,
       "required": true
     },
-    "street_number": {
-      "type": "integer",
+    "email": {
+      "type": "email",
       "required": true
     },
-    "City": {
-      "type": "string",
-      "required": true,
-      "maxLength": 30
-    },
     "post_number": {
-      "type": "integer",
+      "type": "string",
       "required": true
     },
     "phone_number": {
-      "type": "integer",
+      "type": "string",
       "required": true
     },
-    "email": {
-      "type": "email",
+    "street_number": {
+      "type": "string",
+      "required": true
+    },
+    "city": {
+      "type": "string",
       "required": true
     }
   }
